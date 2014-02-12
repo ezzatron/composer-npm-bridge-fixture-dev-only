@@ -1,0 +1,130 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "0ace8cee6ce31cd00333b9ed95fc6f4c",
+    "packages": [
+
+    ],
+    "packages-dev": [
+        {
+            "name": "eloquent/composer-npm-bridge",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/composer-npm-bridge.git",
+                "reference": "0b1ca86728997374cb1d9eeced6db46d92b7a620"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/0b1ca86728997374cb1d9eeced6db46d92b7a620",
+                "reference": "0b1ca86728997374cb1d9eeced6db46d92b7a620",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0",
+                "icecave/isolator": "~2",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "composer/composer": "dev-master@dev",
+                "icecave/archer": "~1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Eloquent\\Composer\\NpmBridge\\NpmBridgePlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Composer\\NpmBridge\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "NPM integration for Composer packages.",
+            "homepage": "https://github.com/eloquent/composer-npm-bridge",
+            "keywords": [
+                "Bridge",
+                "composer",
+                "composer-plugin",
+                "integration",
+                "npm",
+                "package",
+                "plugin"
+            ],
+            "time": "2014-01-29 08:43:21"
+        },
+        {
+            "name": "icecave/isolator",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IcecaveStudios/isolator.git",
+                "reference": "2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6",
+                "reference": "2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "~0.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Icecave\\Isolator": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Harris",
+                    "email": "james.harris@icecave.com.au",
+                    "homepage": "https://github.com/jmalloc"
+                }
+            ],
+            "description": "Isolate PHP tests from the global environment.",
+            "homepage": "https://github.com/IcecaveStudios/isolator",
+            "keywords": [
+                "fake",
+                "mock",
+                "phake",
+                "phpunit",
+                "test",
+                "unit"
+            ],
+            "time": "2013-06-04 05:00:29"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "eloquent/composer-npm-bridge": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
