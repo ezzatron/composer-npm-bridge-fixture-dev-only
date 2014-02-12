@@ -3,23 +3,23 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "763616c947a7645e5d334d0ef71c3a11",
+    "hash": "79b36250eeb264e361868453b0ea0e0f",
     "packages": [
 
     ],
     "packages-dev": [
         {
             "name": "eloquent/composer-npm-bridge",
-            "version": "dev-Magomogo-check-dev-requires",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "aefd9b95f2bccc8f412904b09214cc1a14eef08b"
+                "reference": "69d603458acf92ec3ad802f00f49d7066be5f7fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/aefd9b95f2bccc8f412904b09214cc1a14eef08b",
-                "reference": "aefd9b95f2bccc8f412904b09214cc1a14eef08b",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/69d603458acf92ec3ad802f00f49d7066be5f7fc",
+                "reference": "69d603458acf92ec3ad802f00f49d7066be5f7fc",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "package",
                 "plugin"
             ],
-            "time": "2014-02-12 03:45:24"
+            "time": "2014-02-12 04:06:34"
         },
         {
             "name": "icecave/isolator",
@@ -118,9 +118,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "eloquent/composer-npm-bridge": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
