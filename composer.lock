@@ -4,27 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0deae7b5973e6d2e884d04896e6a147e",
-    "content-hash": "2ef3737e229f4ca81bda1b5fdd97be8d",
+    "content-hash": "a4cfa385b353bd82e8e79154b063dc9a",
     "packages": [],
     "packages-dev": [
         {
             "name": "eloquent/composer-npm-bridge",
-            "version": "dev-develop",
+            "version": "dev-npm-lock",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "6683d6a0c3617b25406df32f5e350bf27d5ec58d"
+                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/6683d6a0c3617b25406df32f5e350bf27d5ec58d",
-                "reference": "6683d6a0c3617b25406df32f5e350bf27d5ec58d",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
+                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1",
-                "icecave/isolator": "^2",
                 "php": ">=5.3"
             },
             "require-dev": {
@@ -64,59 +62,7 @@
                 "package",
                 "plugin"
             ],
-            "time": "2016-02-12 05:21:25"
-        },
-        {
-            "name": "icecave/isolator",
-            "version": "2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/IcecaveStudios/isolator.git",
-                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
-                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "icecave/archer": "~1"
-            },
-            "suggest": {
-                "eloquent/asplode": "Drop-in exception-based error handling."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Icecave\\Isolator\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "James Harris",
-                    "email": "james.harris@icecave.com.au",
-                    "homepage": "https://github.com/jmalloc"
-                }
-            ],
-            "description": "Dependency injection for global functions.",
-            "homepage": "https://github.com/IcecaveStudios/isolator",
-            "keywords": [
-                "fake",
-                "mock",
-                "phake",
-                "phpunit",
-                "test",
-                "unit"
-            ],
-            "time": "2014-08-12 03:16:11"
+            "time": "2017-07-11T04:03:41+00:00"
         }
     ],
     "aliases": [],
